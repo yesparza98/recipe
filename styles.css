@@ -1,0 +1,824 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat&family=Montserrat:ital,wght@0,400;0,700;1,400&display=swapp");
+
+html{
+  box-sizing: border-box;
+}
+body{
+  width: 1280px; 
+  margin: auto; 
+  padding: 0;  
+  background-color: rgba(122, 191, 191, .5);
+}
+h1{
+  visibility: hidden; 
+}
+.main_nav #burgey{
+  visibility: hidden; 
+}
+.main_nav{
+  font-family: 'Bebas Neue', cursive;
+  position: absolute; 
+  top: 0px;  
+  background-color: white; 
+  width: 1280px; 
+  display: flex;
+  justify-content: center;
+  padding-bottom: 60px; 
+  border: 1px solid grey; 
+}
+.main_nav ol{
+  position: absolute; 
+  display: flex; 
+  right: 20%; 
+}
+.main_nav li{
+  float: left;
+  list-style-type: none;
+  padding: 20px;
+  padding-top: 1px; 
+}
+.main_nav a{
+  display: block; 
+  text-align: center; 
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px; 
+  font-weight: bold;
+  color: #EB5428; 
+}
+.main_nav h2{
+  visibility: hidden;
+}
+main{
+  width: 1280px;
+  height: auto; 
+  background-color: #F2F2F2;
+}
+
+.logo{
+  position: absolute; 
+  top: -16px; 
+  left: -215px; 
+  background-color: #EB5428;
+  width: 110px;
+  height: 109px; 
+}
+.logo svg{ 
+  position: absolute; 
+  top: 30px; 
+  right: 50px; 
+}
+.logo a{
+  opacity: 0; 
+  position: absolute; 
+  top: 50px; 
+  right: 50px;
+}
+
+.sign_in{
+  position: absolute; 
+  top: 7px; 
+  right: -235px;
+}
+.sign_in svg{
+   width: 60px; 
+   height: 60px; 
+}
+.sign_in a{
+  color: black; 
+}
+/*----search---*/
+.search{
+  position: relative; 
+  left: 500px;
+  top: -1980px; 
+}
+.search input{
+  width: 300px; 
+  height: 50px; 
+  border-width: 4px;
+  border-color: #EB5428; 
+}
+.search svg{
+  background-color: #EB5428;
+  width: 50px; 
+  height: 60px; 
+  position: relative; 
+  top: 25px; 
+}
+/*--------*/
+#tacos{
+  position: relative;
+  width: 470px; 
+  height: 590px;
+  left: 170px;
+  top: 190px;
+}
+/*------*/
+.s_tacos menu{
+  position: absolute;
+  background-color: white; 
+  list-style-type: none; 
+  top: 350px; 
+  width: 125px;
+  height: 580px; 
+  border-style: solid;
+  border-width: 3px;
+  border-color: #EB5428;
+}
+.s_tacos svg{
+  position: relative; 
+  margin-bottom: 30px; 
+}
+.s_tacos a{
+  position: relative; 
+  left: -40px; 
+  color: #EB5428; 
+  text-decoration: none; 
+  font-family: 'Bebas Neue', cursive;
+}
+.s_tacos h2{
+  position: relative; 
+  top: 200px; 
+  left: 520px; 
+  font-size: 40px; 
+  font-family: 'Bebas Neue', cursive;
+}
+.s_tacos p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px; 
+}
+.s_tacos #p1{
+  position: relative; 
+  width: 600px; 
+  right: -630px;
+  top: -420px;
+  margin: 30px;  
+}
+.s_tacos #p2{
+  position: relative; 
+  width: 600px; 
+  right: -630px;
+  top: -430px;
+  margin: 30px; 
+}
+/*-------------*/
+.details{
+  background-color: black; 
+  color: #7ABFBF;
+  position: relative; 
+  top: -70px;
+  height: 130px; 
+}
+.details h3{
+  position: relative; 
+  right: -600px; 
+  top: 20px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+  margin: 0; 
+}
+dl {
+  display: inline-block;
+  position: relative;
+  width: 100px;
+  margin-top: -40px;
+  margin-left: 120px;
+  text-align: center;
+  top: -10px;
+}
+dt{
+  display: inline-block;
+  position: absolute;
+  width: 200px;
+  left: -50px; 
+  top: 50px ;
+  font-weight: bold; 
+  font-family: 'Montserrat', sans-serif;
+}
+dd{
+  display: inline-block;
+  position: absolute;
+  width: 200px;
+  left:-90px;
+  top: 70px;    
+  font-family: 'Montserrat', sans-serif;
+}
+/*---------*/
+.ingredients{
+  position: relative; 
+  left: 20px; 
+  top: -80px;
+}
+.ingredients li{
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+.ingredients h3{
+  font-size: 30px; 
+  font-family: 'Bebas Neue', cursive;
+}
+/*------*/
+.directions{
+  position: relative; 
+  width: 900px; 
+  top: -400px;
+  right: -300px; 
+}
+.directions li{
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif
+}
+.directions h3{
+  position: relative;
+  right: -400px; 
+  font-size: 30px; 
+  font-family: 'Bebas Neue', cursive;
+}
+/*--------*/
+.nssd{
+  background-color: #7ABFBF; 
+  height: 400px; 
+  position: relative; 
+  top: -300px; 
+}
+.nssd div{
+  display: inline-block;
+  position: relative;
+  width: 100px;
+  margin-top: -40px;
+  margin-left: 190px;
+  top: 60px;
+  left: -100px; 
+}
+.nssd h3{
+  position: relative; 
+  right: -500px; 
+  top: 10px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+  margin: 0; 
+}
+.nssd dt{
+  position: relative;
+  left: -160px; 
+  top: 50px; 
+}
+.nssd dd{
+  position: relative; 
+  text-align: left; 
+  left: -150px; 
+  top: 50px; 
+}
+.nssd #guac{
+  top: 30px; 
+}
+.nssd #salsa{
+  left: -190px; 
+}
+div span{
+  position: relative; 
+  top: 30px; 
+  left: 10px; 
+}
+.mark{
+  color: #EB5428; 
+}
+/*----------*/
+.socials li{
+  display: inline-block;
+  position: relative;
+  width: 100px;
+  margin-left: 50px;
+  top: 60px;
+  left: 600px; 
+}
+.socials h3{
+  visibility: hidden; 
+}
+.socials svg{
+  position: relative;
+  top: -400px; 
+  left: 30px; 
+}
+.socials #yt, #tt{
+  position: relative; 
+  top: -400px; 
+}
+.socials a{
+  font-family: 'Bebas Neue', cursive;
+  position: relative;
+  top: -400px; 
+  display: block; 
+  text-align: center; 
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px; 
+  font-weight: bold;
+  color: #EB5428; 
+}
+/*------*/
+footer img{
+  position: relative; 
+  width: 250px; 
+  height: 250px; 
+  top: -480px; 
+  left: 50px; 
+}
+footer p{
+  margin: auto;
+  padding: 0; 
+  position: relative; 
+  font-family: 'Bebas Neue', cursive;
+  font-weight: bold;
+  top: -400px;
+  left: 300px; 
+}
+#burger_li{
+    display: none; 
+}
+.burgey{
+    display: none; 
+}
+
+@media screen and (max-width: 768px){
+  html{
+    box-sizing: border-box;
+  }
+  body{
+    width: 768px; 
+    margin: auto; 
+    padding: 0;  
+    background-color: rgba(122, 191, 191, .5);
+  }
+  main{
+    width: 768px; 
+    margin: auto;
+  }
+  .search{
+    position: relative; 
+    left: 300px;
+    top: -2495px; 
+  }
+  .search input{
+    width: 300px; 
+    height: 50px; 
+    border-width: 4px;
+    border-color: #EB5428; 
+  }
+  .search svg{
+    background-color: #EB5428;
+    width: 50px; 
+    height: 60px; 
+    position: relative; 
+    top: 25px; 
+  }
+  .main_nav #burgey{
+    visibility: hidden; 
+  }
+  .main_nav{
+    font-family: 'Bebas Neue', cursive;
+    position: absolute; 
+    top: 0px;  
+    background-color: white; 
+    width: 768px;
+    height: 200px; 
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px; 
+    border: 1px; 
+  }
+  .main_nav ol{
+    position: absolute; 
+    display: flex; 
+    right: 20%;
+    top: 130px; 
+    left: -40px; 
+  }
+  .main_nav li{
+    float: left;
+    list-style-type: none;
+    padding: 20px;
+    padding-top: 1px; 
+  }
+  .main_nav a{
+    display: block; 
+    text-align: center; 
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px; 
+    font-weight: bold;
+    color: #EB5428; 
+  }
+  .main_nav h2{
+    visibility: hidden;
+  }
+  .main_nav .logo{ 
+    top: -147px; 
+    left: 40px; 
+  }
+  .main_nav .sign_in{ 
+    top: -120px; 
+    right: -150px; 
+  }
+  .sign_in a{
+    color: black; 
+  }
+  #tacos{
+    position: relative;
+    width: 768px; 
+    height: 890px;
+    left: 0px;
+    top: 150px;
+  }
+  .s_tacos menu{
+    position: absolute; 
+    list-style-type: none; 
+    top: 245px; 
+    width: 725px;
+    height: 150px; 
+    opacity: 0.7; 
+    z-index: 1;
+    display: flex;
+  }
+  menu li{
+    margin: 0px; 
+    padding: 0px 60px 0px 50px;
+    position: relative; 
+    top: 70px; 
+  }
+.s_tacos svg{
+    position: relative; 
+    margin-bottom: 20px;
+  }
+.s_tacos a{
+    position: relative; 
+    left: -40px; 
+    color: #EB5428; 
+    text-decoration: none; 
+    font-family: 'Bebas Neue', cursive;
+  }
+.s_tacos h2{
+    position: relative; 
+    top: 180px; 
+    left: 10px; 
+    font-size: 40px; 
+    font-family: 'Bebas Neue', cursive;
+    z-index: 2;
+  }
+.s_tacos p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px; 
+  }
+.s_tacos #p1{
+    position: relative; 
+    width: 760px; 
+    left: -20px;
+    top: 120px;  
+  }
+  .s_tacos #p2{
+    position: relative; 
+    width: 760px; 
+    left: -20px;
+    top: 130px; 
+  }
+  .details{ 
+    background-color: #F2F2F2;
+    color: black;
+    position: relative; 
+    top: 100px;
+    height: 130px; 
+  }
+  .details h3{
+    position: relative; 
+    right: -350px; 
+    top: 20px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    margin: 0; 
+  }
+  #d1 dt{
+    position: relative; 
+    left: 100px; 
+    top: 50px; 
+  }
+  #d1 dd{
+    position: relative; 
+    left: 200px; 
+    top: 30px; 
+  }
+  #d2 dt{
+    position: relative; 
+    left: -125px; 
+    top: 70px; 
+  }
+  #d2 dd{
+    position: relative; 
+    left: -25px; 
+    top: 50px; 
+  }
+  #d3 dt{ 
+    left: -350px;
+    top: 70px; 
+  }
+  #d3 dd{
+    position: relative; 
+    left: -250px; 
+  }
+  #d4 dt{
+    position: relative; 
+    left: 90px;  
+    top: 70px; 
+  }
+  #d4 dd{
+    position: relative; 
+    left: 200px;  
+    top: 55px; 
+  }
+  #d5 dt{
+    position: relative; 
+    left: -120px;  
+    top: 85px; 
+  }
+  #d5 dd{
+    position: relative; 
+    left: -20px; 
+  }
+  .ingredients{ 
+    position: relative; 
+    top: 150px; 
+    left: 20px; 
+  }
+  .directions{
+    position: relative; 
+    top: -160px;
+    width: 500px;
+    left: 250px; 
+  }
+  .directions h3{
+    position: relative;
+    left: 100px; 
+  }
+  .nssd{
+    position: relative; 
+    top: -150px; 
+  }
+  .nssd img{
+    width: 120px; 
+    height: 120px;
+    padding-bottom:70px;
+    position: relative;
+    left: -80px; 
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 100px;
+  }
+  .nssd h3{
+    position: relative; 
+    left: 10px; 
+  }
+  .nssd dl{ 
+    position: relative; 
+    top: -200px;
+    left: 150px; 
+  }
+  .nssd dd{
+    width: 150px; 
+    position: relative; 
+  }
+  .nssd span{
+    position: relative; 
+    top: -150px; 
+    left: 170px;
+  }
+  .socials li{
+    display: inline-block;
+    position: relative;
+    width: 100px;
+    margin-left: 20px;
+    top: 130px;
+    left: 200px; 
+  }
+  footer img{
+    width: 250px; 
+    height: 250px; 
+    position: relative; 
+    left: 10px;
+    top: -400px; 
+  }
+  footer p{
+    position: relative; 
+    left: 90px; 
+    top: -90px; 
+  }
+  #burger_li{
+    display: none; 
+  }
+  .burgey{
+    display: none; 
+  }
+}
+@media screen and (max-width: 414px){
+  html{
+    box-sizing: border-box;
+  }
+  body{
+    width: 414px; 
+    margin: auto; 
+    padding: 0;  
+    background-color: rgba(122, 191, 191, .5);
+  }
+  main{
+    width: 414px; 
+  }
+  .main_nav #burgey{
+    visibility: visible; 
+  }
+  .main_nav img{
+    visibility: hidden; 
+  }
+  .main_nav li{
+    position: relative; 
+    width: 0px; 
+  }
+  .burgey #burgey{
+    position: relative; 
+    left: 25px; 
+  }
+  .main_nav .burgey{
+    left: -250px; 
+    position: relative; 
+    z-index: 1; 
+    height: 130px; 
+    width: 150px; 
+  }
+  .main_nav{
+    width: 414px; 
+  }
+  .main_nav .logo{
+    position: absolute; 
+    width: 300px; 
+  }
+  .sign_in svg{
+    position: absolute; 
+    left: -60px; 
+  }
+  .logo svg{
+    left: 190px; 
+  }
+  .logo a{
+    width: 100px; 
+  }
+  .search{
+    position: relative; 
+    top: -2380px;
+    left: 60px; 
+  } 
+  #tacos{
+    top: 300px; 
+    width: 414px;
+    height: 544px; 
+  }
+  .s_tacos h2{
+    position: relative; 
+    top: 220px; 
+    left: 120px; 
+  }
+  .s_tacos menu{
+    position: absolute; 
+    list-style-type: none; 
+    top: 315px; 
+    width: 374px;
+    height: 150px; 
+    opacity: 1; 
+    z-index: 1;
+    display: flex;
+    border: none;
+    background-color: #F2F2F2; 
+  }
+  .s_tacos #p1{ 
+    position: relative; 
+    width: 400px;
+    top: 270px; 
+  }
+  .s_tacos #p2{ 
+    position: relative; 
+    width: 400px; 
+    top: 250px; 
+  }
+  menu li{
+    margin: 0px; 
+    padding: 0px 0px 0px 0px;
+    position: relative; 
+    top: 70px; 
+    width: 414px; 
+  }
+  .details{ 
+    background-color: transparent;
+    color: black;
+    position: relative; 
+  }
+  .details h3{
+    position: relative; 
+    left: 180px; 
+    top: 120px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    margin: 0; 
+  }
+  #d1 dt{
+    position: relative; 
+    left: -150px; 
+    top: 150px; 
+  }
+  #d1 dd{
+    position: relative; 
+    left: -90px; 
+    top: 130px; 
+  }
+  #d2 dt{
+    position: relative; 
+    left: -150px; 
+    top: 140px; 
+  }
+  #d2 dd{
+    position: relative; 
+    left: -90px; 
+    top: 120px; 
+  }
+  #d3 dt{ 
+    left: -150px;
+    top: 110px; 
+  }
+  #d3 dd{
+    position: relative; 
+    left: -90px; 
+    top: 110px; 
+  }
+  #d4 dt{
+    position: relative; 
+    left: -165px;  
+    top: 114px; 
+  }
+  #d4 dd{
+    position: relative; 
+    left: -100px;  
+    top: 95px; 
+  }
+  #d5 dt{
+    position: relative; 
+    left: -155px;  
+    top: 100px; 
+  }
+  #d5 dd{
+    position: relative; 
+    left: -100px; 
+    top: 80px; 
+  }
+  .ingredients{
+    position: relative; 
+    top: 250px; 
+  }
+  .ingredients h3{
+    position: relative; 
+    left: 140px; 
+  }
+  .directions{
+    position: relative; 
+    left: 65px; 
+    width: 414px; 
+    top: 250px; 
+  }
+  .directions ol{
+    position: relative; 
+    left: -70px; 
+  }
+  .nssd{
+    position: relative; 
+    top: 250px;
+    background-color: #7ABFBF;
+    height: 850px; 
+  }
+  .nssd div{
+    position: relative; 
+    left: -200px; 
+  }
+  footer{
+    position: relative; 
+    top: 20px; 
+    left: 60px; 
+  }
+  .socials{
+    position: relative; 
+    top: 400px;
+    width: 414px;
+    left: -250px;
+    padding: 0px; 
+  }
+  .socials ul{
+    background-color: transparent; 
+    width: 414px; 
+    height: 600px;  
+  }
+}
